@@ -1,36 +1,61 @@
-site_name: Documentazione Custom Spa
+site_name: K3F_n_rt
+site_url: https://ivanrobuschi-custom.github.io/K3F_n_rt/
+site_author: Custom S.p.A.
 theme:
   name: material
+  logo: assets/icons/logo.png
+  favicon: assets/icons/favicon.png
   language: it
-  palette:
-  - scheme: default
-    primary: indigo
-    accent: indigo
-    toggle:
-      icon: material/brightness-7
-      name: Tema scuro
-  - scheme: slate
-    primary: indigo
-    accent: indigo
-    toggle:
-      icon: material/brightness-4
-      name: Tema chiaro
   features:
-  - navigation.tabs
-  - navigation.sections
-  - navigation.expand
-  - search.suggest
-  - search.highlight
-  - content.code.copy
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.preview
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.sections
+    - navigation.prune
+    - navigation.indexes
+    # - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.footer
+
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Tema scuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Tema chiaro
+
+extra_css:
+  - stylesheets/extra.css
+
 plugins:
-- search
+  - search
+  - tags
+
+copyright: Copyright Custom S.p.A 2026
+
 markdown_extensions:
-- tables
-- fenced_code
-- admonition
-- pymdownx.superfences
-- toc:
-    permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - fenced_code
+  - toc:
+      permalink: true
 nav:
 - Home: index.md
 - MANUALE UTENTE K3-N RT:
