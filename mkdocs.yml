@@ -58,10 +58,10 @@ markdown_extensions:
       permalink: true
 nav:
   - K3F N RT: index.md
-  - Descrizione del Dispositivo: manuale-utente-k3-n-rt/descrizione-del-dispositivo.md
-  - Installazione e Funzionamento di Base: manuale-utente-k3-n-rt/installazione-e-funzionamento-di-base.md
-  - Operazioni di Vendita e Pagamento: manuale-utente-k3-n-rt/operazioni-di-vendita-e-pagamento.md
-  - Rapporti Statistici e Azzeramenti: manuale-utente-k3-n-rt/rapporti-statistici-e-azzeramenti.md
-  - Servizi Telematici e Lotteria degli Scontrini: manuale-utente-k3-n-rt/servizi-telematici-e-lotteria-degli-scontrini.md
-  - Programmazione e Configurazione Avanzata: manuale-utente-k3-n-rt/programmazione-e-configurazione-avanzata.md
-  - Manutenzione e Specifiche Tecniche: manuale-utente-k3-n-rt/manutenzione-e-specifiche-tecniche.md
+  - Descrizione del Dispositivo: descrizione-del-dispositivo.md
+  - Installazione e Funzionamento di Base: installazione-e-funzionamento-di-base.md
+  - Operazioni di Vendita e Pagamento: operazioni-di-vendita-e-pagamento.md
+  - Rapporti Statistici e Azzeramenti: rapporti-statistici-e-azzeramenti.md
+  - Servizi Telematici e Lotteria degli Scontrini: servizi-telematici-e-lotteria-degli-scontrini.md
+  - Programmazione e Configurazione Avanzata: programmazione-e-configurazione-avanzata.md
+  - Manutenzione e Specifiche Tecniche: manutenzione-e-specifiche-tecniche.md
