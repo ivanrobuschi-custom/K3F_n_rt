@@ -57,9 +57,7 @@ markdown_extensions:
   - toc:
       permalink: true
 nav:
-- Home: index.md
-- MANUALE UTENTE K3-N RT:
-  - Introduzione: manuale-utente-k3-n-rt/index.md
+  - K3F N RT: index.md
   - Descrizione del Dispositivo: manuale-utente-k3-n-rt/descrizione-del-dispositivo.md
   - Installazione e Funzionamento di Base: manuale-utente-k3-n-rt/installazione-e-funzionamento-di-base.md
   - Operazioni di Vendita e Pagamento: manuale-utente-k3-n-rt/operazioni-di-vendita-e-pagamento.md
