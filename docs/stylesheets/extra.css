@@ -9,7 +9,9 @@
 }
 
 /* 2. Applicazione del Font al Tema Material */
-:root {
+:root,
+[data-md-color-scheme="default"],
+[data-md-color-scheme="slate"] {
   /* --md-text-font controlla il corpo del testo e i titoli */
   --md-text-font: 'Titillium Web', sans-serif;
   
@@ -20,9 +22,11 @@
    */
 
   /* 1. Header e Colore Primario (Link, Titoli attivi) - HEX: #617C8D */
-  --md-primary-fg-color:        #334F5C;
+  --md-primary-fg-color:        #334f5c;
   --md-primary-fg-color--light: #809AAB; /* Una variante leggermente più chiara per gli hover */
   --md-primary-fg-color--dark:  #617C8D; /* Una variante leggermente più scura */
+  --md-primary-bg-color:        #ffffff; /* Colore del testo sopra l'header */
+  --md-primary-bg-color--light: #ffffffb3;
 
   /* 2. Footer (Sfondo generale) - HEX: #1B3640 */
   --md-footer-bg-color:         #334F5C;
